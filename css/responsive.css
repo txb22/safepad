@@ -1,0 +1,174 @@
+@media (min-width: 700px) and(max-width:1024px) {
+  .quy-trinh .new-right {
+    max-height: 15rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .container .row div[class*="col"] {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 1366px) {
+  .container .row div[class*="col"] {
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+}
+@media (max-width: 480px) {
+  .container .row div[class*="col"] {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+@media (max-width: 1600px) {
+  .container .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+@media (max-width: 1366px) {
+  .container .row {
+    margin-left: -7px;
+    margin-right: -7px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-logo .c-img img {
+    width: auto;
+  }
+  .search1 {
+    display: block;
+  }
+  .search1 button i {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .search1 button {
+    display: block;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 0;
+    background: none;
+    fill: #fff;
+  }
+  .header-button {
+    display: none;
+  }
+  .question-box {
+    text-align: justify;
+  }
+  .question-title {
+    text-align: center;
+  }
+  .question-conttent .box-conttent {
+    display: none;
+  }
+  .question,
+  .service,
+  .price-list,
+  .safepad-token,
+  .partners,
+  .footer,
+  .project-open {
+    padding: 1rem 0;
+  }
+  .box-service,
+  .box-price,
+  .box-safepad,
+  .safepad-token .box,
+  .box-conttent-2 {
+    margin-bottom: 1rem;
+  }
+  .box-service {
+    min-height: 12rem;
+    padding-bottom: 0;
+  }
+  .price-list .title {
+    margin-bottom: 2rem;
+  }
+  .box-service .text-conttent {
+    display: none;
+  }
+  .absolute-footer {
+    text-align: center;
+  }
+  .absolute-footer .box-right {
+    display: none;
+  }
+  .question-box .question-title,
+  .service-title,
+  .price-title,
+  .safepad-title,
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .question-box .question-span,
+  .service-conttent,
+  .price-conttent,
+  .box-round2 .text-box,
+  .box-conttent-2 .text-lightt,
+  .box-text-open .title-box .text,
+  .box-about .title-about,
+  .footer .follow-title {
+    font-size: 1rem;
+  }
+  .question-box .question-p,
+  .question-conttent .box-conttent,
+  .box-text-open .box-conttent .text,
+  .box-about .text {
+    font-size: 0.75rem;
+  }
+  .box-safepad .text-bold .text {
+    font-size: 1.25rem;
+  }
+  .box-conttent-2 .text-bold {
+    font-size: 1rem;
+  }
+  .box-conttent-2 {
+    padding: 0.75rem;
+  }
+  .box-round2 {
+    margin-top: 1rem;
+  }
+  .box-text-open .box-conttent .text:nth-child(2) {
+    font-size: 0.85rem;
+  }
+  .box-text-open .button button {
+    padding: 0.5rem 2rem;
+  }
+  .box-about {
+    margin-bottom: 0.5rem;
+  }
+  .box-service .box-img {
+    margin: 2rem 0 1rem 0;
+  }
+}
+@media (max-width: 480px) {
+  .box-text-open .button button {
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .box-coming .box-button button:first-child,
+  .box-close .box-button button:first-child {
+    margin-right: 0.25rem;
+    color: #1fc7d4;
+  }
+  .box-coming,
+  .box-close {
+    padding: 1rem 0.5rem;
+  }
+
+  .box-coming .box-button button:last-child,
+  .box-close .box-button button:last-child {
+    color: #c73c31;
+    padding: 0.45rem 1.5rem;
+    text-transform: uppercase;
+  }
+}
