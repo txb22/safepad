@@ -434,7 +434,7 @@ a {
 .item-partner img {
   object-fit: contain;
   max-width: 12rem;
-  max-height: 4rem;
+  max-height: 3rem;
 }
 .footer {
   padding: 3rem 0;
