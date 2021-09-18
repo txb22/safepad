@@ -154,7 +154,10 @@
     left: 50%;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
+  .box-coming .box-button button:first-child {
+    padding: 0.5rem 0.5rem;
+  }
   .box-coming .box-button button:first-child,
   .box-close .box-button button:first-child {
     margin-right: 0.25rem;
