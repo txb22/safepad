@@ -371,13 +371,15 @@ a {
 }
 .box-safepad .text-light .text {
   font-family: Roboto;
+  color: #ffffff;
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5;
-  color: #ffffff;
+
   text-decoration: none;
 }
+
 .box-safepad .text-bold .text {
   font-family: Roboto;
   font-style: normal;
@@ -693,6 +695,9 @@ main {
   font-weight: normal;
   font-size: 0.75rem;
 }
+.box-coming .box-button button:hover {
+  background: #fff;
+}
 .box-coming .box-button button:first-child {
   margin-right: 0.5rem;
   color: #1fc7d4;
@@ -813,7 +818,7 @@ main {
 
 .box-close .box-button button:last-child {
   color: #c73c31;
-  padding: 0.5rem 2rem;
+  padding: 0.45rem 2rem;
 }
 
 .box-close .box-button .close-son::before {
@@ -1045,4 +1050,43 @@ main {
   color: #fff;
   padding: 0.75rem 1.5rem;
   right: 0;
+}
+/* back to top*/
+#button {
+  display: inline-block;
+  background-color: #c73c31;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  /* border-radius: 50%; */
+  position: fixed;
+  bottom: 47px;
+  right: 15px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  visibility: hidden;
+  z-index: 999999999;
+  border: 2px solid #fff;
+}
+#button::after {
+  content: "\f062";
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: #c0c0c0;
+  transition: 0.3s all 0s;
+}
+#button:active {
+  background-color: #c0c0c0;
+  transition: 0.3s all 0s;
+}
+#button.show {
+  opacity: 0.9;
+  visibility: visible;
 }
