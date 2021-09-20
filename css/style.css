@@ -11,6 +11,16 @@ body {
 }
 .c-img img {
   width: 100%;
+  height: 100%;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  -webkit-object-fit: cover;
+  -moz-object-fit: cover;
+  -ms-object-fit: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 a {
   text-decoration: none;
@@ -108,12 +118,13 @@ a {
   background-size: 100% 100%;
   padding: 4rem 0;
 }
-.question-box .question-title {
+.question-box .question-title .text {
   font-family: Helvetica Neue LT Std;
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 1rem;
   color: #f2f2f2;
+  display: inline-block;
 }
 .question-box .question-span {
   font-family: Roboto;
@@ -161,8 +172,8 @@ a {
 .service .title {
   margin-bottom: 2rem;
 }
-.service-title,
-.price-title {
+.service-title .text,
+.price-title .text {
   color: #f2f2f2;
   font-family: Helvetica Neue LT Std;
   font-style: normal;
@@ -236,7 +247,7 @@ a {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.25;
+  font-size: 1.25rem;
   line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
@@ -340,7 +351,7 @@ a {
   text-align: center;
   background: #212027;
 }
-.safepad-title {
+.safepad-title .text {
   font-family: Helvetica Neue LT Std;
   font-style: normal;
   font-weight: 500;
@@ -348,6 +359,7 @@ a {
   line-height: 1.5;
   color: #f2f2f2;
   margin-bottom: 1rem;
+  display: inline-block;
 }
 .box-safepad {
   background-color: #c73c31;
@@ -405,7 +417,7 @@ a {
   text-align: center;
   background-color: #16151b;
 }
-.partners-title {
+.partners-title .text {
   font-family: Helvetica Neue LT Std;
   font-style: normal;
   font-weight: 500;
@@ -620,8 +632,12 @@ main {
   padding: 1.5rem 1rem;
   border-radius: 0.5rem;
 }
-.box-coming .box-img img {
+
+.coming-top .box-img img {
   border-radius: 50%;
+  height: 100%;
+  max-height: 7rem;
+  width: 100%;
 }
 .box-coming .box-text {
   margin-bottom: 1rem;
@@ -731,6 +747,9 @@ main {
 }
 
 /*close*/
+.project-close {
+  padding-top: 2rem;
+}
 .box-close {
   background-color: #2f2f2f;
   padding: 1.5rem 1rem;

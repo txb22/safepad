@@ -98,13 +98,14 @@
   .absolute-footer .box-right {
     display: none;
   }
-  .question-box .question-title,
-  .service-title,
-  .price-title,
-  .safepad-title,
-  .project-title {
+  .question-box .question-title .text,
+  .service-title .text,
+  .price-title .text,
+  .safepad-title .text,
+  .project-title .text {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    display: inline-block;
   }
   .question-box .question-span,
   .service-conttent,
@@ -114,6 +115,9 @@
   .box-text-open .title-box .text,
   .box-about .title-about,
   .footer .follow-title {
+    font-size: 0.85rem;
+  }
+  .box-price .title-box {
     font-size: 1rem;
   }
   .question-box .question-p,
@@ -122,7 +126,9 @@
   .box-about .text {
     font-size: 0.75rem;
   }
-  .box-safepad .text-bold .text {
+  .box-safepad .text-bold .text,
+  .price-list .round1,
+  .price-list .round2 {
     font-size: 1.25rem;
   }
   .box-conttent-2 .text-bold {
@@ -145,6 +151,12 @@
   }
   .box-service .box-img {
     margin: 2rem 0 1rem 0;
+  }
+  .box-safepad {
+    padding: 0.25rem 0;
+  }
+  .mb_30 {
+    margin-bottom: 0.5rem;
   }
 }
 @media (max-width: 480px) {
@@ -173,5 +185,19 @@
     color: #c73c31;
     padding: 0.45rem 1.5rem;
     text-transform: uppercase;
+  }
+}
+@media (max-width: 768px) {
+  .box-round2 .text-box:nth-child(2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 1;
+    /* height: 75px; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .box-round2 .text-box:nth-child(3) {
+    display: none;
   }
 }
