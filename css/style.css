@@ -80,7 +80,7 @@ a {
 /*header*/
 .nav-main {
   width: 100%;
-  background: #000;
+  background: #16151b;
 }
 .header-button {
   display: flex;
@@ -564,6 +564,9 @@ main {
   padding: 4rem 0;
 }
 .project-title {
+  text-align: center;
+}
+.project-title .text {
   font-family: Helvetica Neue LT Std;
   font-style: normal;
   font-weight: 500;
@@ -571,13 +574,13 @@ main {
   line-height: 1.5;
   color: #ffffff;
   margin-bottom: 2rem;
-  text-align: center;
+  display: inline-block;
 }
 .box-text-open .title-box .text {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: #ffffff;
   text-decoration: none;
