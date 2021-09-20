@@ -115,8 +115,10 @@ a {
 }
 .question {
   background-image: url(../images/Frame\ 24.png);
-  background-size: 100% 100%;
+  background-size: contain;
   padding: 4rem 0;
+  background-repeat: no-repeat;
+  background-color: #16151b;
 }
 .question-box .question-title .text {
   font-family: Helvetica Neue LT Std;
@@ -164,7 +166,7 @@ a {
 }
 .service {
   /* background-image: url(../images/Frame\ 22.png);
-  background-size: 100% 100%; */
+  background-size: cover; */
   background: #212027;
   text-align: center;
   padding: 4rem 0;
@@ -450,7 +452,9 @@ a {
 }
 .footer {
   padding: 3rem 0;
-  background-color: #212027;
+  /* background-color: #212027; */
+  background-image: url(../images/Rectangle\ 2763.png);
+  background-size: cover;
 }
 .box-about .title-about,
 .footer .follow-title {
@@ -636,7 +640,8 @@ main {
   border-radius: 0.5rem;
 }
 
-.coming-top .box-img img {
+.coming-top .box-img img,
+.close-top .box-img img {
   border-radius: 50%;
   height: 100%;
   max-height: 7rem;
